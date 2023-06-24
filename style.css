@@ -25,10 +25,11 @@ body {
 }
 
 .header__subtitle {
-  color: #fff;
+  color: #0a5a03;
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
+  text-align: center;
 }
 
 .links {
