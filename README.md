@@ -1,1 +1,1 @@
-# girlsmakemedrink.github.io-qa
+# girlsmakemedrink.github.io
