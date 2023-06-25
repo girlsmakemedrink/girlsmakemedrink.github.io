@@ -1,11 +1,19 @@
 body {
-  font-family: "Helvetica";
+  font-family: "Arial";
   background-color: #f6f8fa;
   color: #24292f;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+video {
+  position: absolute;
+  z-index:-1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .header {
@@ -18,9 +26,10 @@ body {
 
 .header__title {
   margin: 10px 0 10px 0;
+  color: #000000;
   font-size: 32px;
   line-height: 1.2;
-  font-family: "Helvetica Neue";
+  font-family: "Arial";
   text-align: center;
 }
 
@@ -35,17 +44,18 @@ body {
 .links {
   width: 350px;
   margin-bottom: 40px;
+  color: #000000
 }
 
 .links__header {
-  font-family: "Helvetica Neue";
+  font-family: "Arial";
   font-size: 24px;
   line-height: 1.4;
   margin: 0 0 5px 0;
 }
 
 .links__container {
-  background-color: #fffdd0;
+  background-color: #ffffff;
   list-style-type: none;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
@@ -59,14 +69,14 @@ body {
   flex-grow: 0;
   box-sizing: border-box;
   margin: 0;
-  width: 350  0px;
+  width: 350  0 px;
 }
 
 .links__link,
 .links__title {
   font-size: 14px;
   font-size: 1.4;
-  color: #57606a;
+  color: #000000;
 }
 
 .links__link {
@@ -100,7 +110,7 @@ footer {
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
 
 .kauvec_adelon {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 2rem;
   color: #e9dfdf;
   background: #16a90c;
@@ -137,4 +147,12 @@ footer {
   background-color: #0969da;
   color: #fff;
   box-shadow: 0 1px 0 rgba(27, 31, 36, 0.1);
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+  }
 }
